@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 import Header from '@Admin/Layouts/Header'
 import Sidebar from '@Admin/Layouts/Sidebar'
 import { Table } from "flowbite-react";
