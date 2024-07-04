@@ -32,6 +32,9 @@ import AFourWheeler from '@Admin/Pages/AFourWheeler';
 import ANews from '@Admin/Pages/ANews';
 import AThreeWheeler from '@Admin/Pages/AThreeWheeler';
 import ATwoWheeler from '@Admin/Pages/ATwoWheeler';
+import { Brand_Form } from '@Admin/Pages/ABrand/Brand_Form';
+import { Dealer_Form } from '@Admin/Pages/ADealer/Dealer_Form';
+
 
 
 
@@ -53,6 +56,10 @@ function App() {
           <Route path="/dashboard/news" element={<ANews />} />
           <Route path="/dashboard/threewheeler" element={<AThreeWheeler />} />
           <Route path="/dashboard/twowheeler" element={<ATwoWheeler />} />
+
+          {/* form----------- */}
+          <Route path="/dashboard/brand_form" element={<Brand_Form/>} />
+          <Route path="/dashboard/dealer_form" element={<Dealer_Form />} />
 
           <Route path="/" element={<Home />} />
           <Route path="/error" element={<Error404 />} />
