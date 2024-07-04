@@ -34,6 +34,7 @@ import AThreeWheeler from '@Admin/Pages/AThreeWheeler';
 import ATwoWheeler from '@Admin/Pages/ATwoWheeler';
 import { Brand_Form } from '@Admin/Pages/ABrand/Brand_Form';
 import { Dealer_Form } from '@Admin/Pages/ADealer/Dealer_Form';
+import { EVSpares_Form } from './Admin/Pages/AEVSpares/EVSpares_Form';
 
 
 
@@ -60,6 +61,7 @@ function App() {
           {/* form----------- */}
           <Route path="/dashboard/brand_form" element={<Brand_Form/>} />
           <Route path="/dashboard/dealer_form" element={<Dealer_Form />} />
+          <Route path="/dashboard/evspares_form" element={<EVSpares_Form />} />
 
           <Route path="/" element={<Home />} />
           <Route path="/error" element={<Error404 />} />
