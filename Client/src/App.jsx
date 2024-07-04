@@ -34,7 +34,12 @@ import AThreeWheeler from '@Admin/Pages/AThreeWheeler';
 import ATwoWheeler from '@Admin/Pages/ATwoWheeler';
 import { Brand_Form } from '@Admin/Pages/ABrand/Brand_Form';
 import { Dealer_Form } from '@Admin/Pages/ADealer/Dealer_Form';
-import { EVSpares_Form } from './Admin/Pages/AEVSpares/EVSpares_Form';
+import { EVSpares_Form } from '@Admin/Pages/AEVSpares/EVSpares_Form';
+import { EVStartups_Form } from '@Admin/Pages/AEVStartups/EVStartups_Form';
+import { FourWheeler_Form } from '@Admin/Pages/AFourWheeler/FourWheeler_Form';
+import { News_Form } from '@Admin/Pages/ANews/News_Form';
+import { ThreeWheeler_Form } from '@Admin/Pages/AThreeWheeler/ThreeWheeler_Form';
+import { TwoWheeler_Form } from '@Admin/Pages/ATwoWheeler/TwoWheeler_Form';
 
 
 
@@ -62,6 +67,11 @@ function App() {
           <Route path="/dashboard/brand_form" element={<Brand_Form/>} />
           <Route path="/dashboard/dealer_form" element={<Dealer_Form />} />
           <Route path="/dashboard/evspares_form" element={<EVSpares_Form />} />
+          <Route path="/dashboard/evstartups_form" element={<EVStartups_Form />} />
+          <Route path="/dashboard/fourwheeler_form" element={<FourWheeler_Form />} />
+          <Route path="/dashboard/news_form" element={<News_Form />} />
+          <Route path="/dashboard/threewheeler_form" element={<ThreeWheeler_Form />} />
+          <Route path="/dashboard/twowheeler_form" element={<TwoWheeler_Form />} />
 
           <Route path="/" element={<Home />} />
           <Route path="/error" element={<Error404 />} />

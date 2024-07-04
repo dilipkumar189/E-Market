@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '@Admin/Layouts/Header'
 import Sidebar from '@Admin/Layouts/Sidebar'
 import { Table } from "flowbite-react";
+import { Link } from 'react-router-dom';
 
 export default function AFourWheeler() {
   return (
@@ -13,9 +14,9 @@ export default function AFourWheeler() {
                 <div className="grid grid-cols-9">
                     <h1 className="text-gray-600 font-bold text-lg mb-3 col-span-7 md:col-span-8">Four Wheeler</h1>
                     <div className="col-span-2 md:col-span-1 lg:ml-[20px]">
-                    <button className="btn btn-primary text-[9px] lg:text-[15px] font-bold px-[6px] py-[4px] rounded-[5px] ">
+                    <Link to={"/dashboard/fourwheeler_form"} className="btn btn-primary text-[9px] lg:text-[15px] font-bold px-[6px] py-[4px] rounded-[5px] ">
                         Add +
-                    </button>
+                    </Link>
                     </div>
                 </div>
                 <hr />
