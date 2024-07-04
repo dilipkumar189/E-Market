@@ -61,6 +61,7 @@ function App() {
           <Route path="/twodetails" element={<TwoDetails />} />
           <Route path="/threedetails" element={<ThreeDetails />} />
           <Route path="/fourdetails" element={<FourDetails />} />
+          <Route path="/twowheeler" element={<TwoWheeler />} />
         </Routes>
       </BrowserRouter>
     </>
