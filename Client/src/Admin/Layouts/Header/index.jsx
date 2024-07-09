@@ -7,7 +7,7 @@ export default function Header() {
     <div className="nav justify-between items-center py-4 hidden md:flex">
       <div className="left-side flex items-center">
         <a href="/" className="text-gray-800 font-bold text-lg">
-          Home
+          Home 
         </a>
         <a href="/" className="text-gray-800 font-bold text-lg">
           / Dashboard
