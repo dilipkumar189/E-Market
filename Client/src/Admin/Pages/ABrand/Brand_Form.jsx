@@ -1,5 +1,4 @@
 import React from 'react'
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import Header from '@Admin/Layouts/Header'
 import Sidebar from '@Admin/Layouts/Sidebar'
 
