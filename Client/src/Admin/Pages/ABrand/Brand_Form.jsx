@@ -19,39 +19,41 @@ export const Brand_Form = () => {
               Add Brand Details
             </h1>
           </div>
-          <form className="max-w-md mx-auto">
-            <div className="relative z-0 w-full mb-4 group">
-              <input
-                type="email"
-                name="floating_email"
-                id="floating_email"
-                className={`${inputCss}`}
-                placeholder=" "
-                required
-              />
-              <label
-                htmlFor="floating_email"
-                className={`${labelCss}`}
-              >
-                Email address
-              </label>
-            </div>
+          <form className="mt-4">
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative z-0 w-full mb-4 group">
+                <input
+                  type="email"
+                  name="floating_email"
+                  id="floating_email"
+                  className={`${inputCss}`}
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="floating_email"
+                  className={`${labelCss}`}
+                >
+                  Email address
+                </label>
+              </div>
 
-            <div className="relative z-0 w-full mb-4 group">
-              <input
-                type="password"
-                name="floating_password"
-                id="floating_password"
-                className={`${inputCss}`}
-                placeholder=" "
-                required
-              />
-              <label
-                htmlFor="floating_password"
-                className={`${labelCss}`}
-              >
-                Password
-              </label>
+              <div className="relative z-0 w-full mb-4 group">
+                <input
+                  type="password"
+                  name="floating_password"
+                  id="floating_password"
+                  className={`${inputCss}`}
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="floating_password"
+                  className={`${labelCss}`}
+                >
+                  Password
+                </label>
+              </div>
             </div>
 
             <div className="relative z-0 w-full mb-4 group">
