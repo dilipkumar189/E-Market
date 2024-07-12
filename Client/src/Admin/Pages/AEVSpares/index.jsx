@@ -34,7 +34,7 @@ export default function AEVSpares() {
                             <Table.HeadCell>Action</Table.HeadCell>
                         </Table.Head>
                         <Table.Body className="divide-y">
-                            {/* <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800"> */}
+                            {/* <Table.Row className="bg-white dark:border-gray-650 dark:bg-gray-800"> */}
                                 <Table.Cell>Sliver</Table.Cell>
                                 <Table.Cell>Laptop</Table.Cell>
                                 <Table.Cell>$2999</Table.Cell>
