@@ -121,7 +121,7 @@ export default function Profile() {
                     htmlFor="floating_phone"
                     className={`${labelCss}`}
                   >
-                    Phone number (123-456-7890)
+                    Phone number
                   </label>
                 </div>
 
