@@ -131,7 +131,7 @@ export default function Profile() {
                     name="floating_company"
                     id="floating_company"
                     className={`${inputCss}`}
-                    // placeholder=" "
+                    placeholder=" "
                     required
                   />
                   <label
