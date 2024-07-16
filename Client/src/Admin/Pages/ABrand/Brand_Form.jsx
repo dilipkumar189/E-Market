@@ -121,6 +121,22 @@ export const Brand_Form = () => {
                   htmlFor="floating_last_name"
                   className={`${labelCss}`}
                 >
+                  Middle name
+                </label>
+              </div>
+              <div className="relative z-0 w-full mb-4 group">
+                <input
+                  type="text"
+                  name="floating_last_name"
+                  id="floating_last_name"
+                  className={`${inputCss}`}
+                  placeholder=" "
+                  required
+                />
+                <label
+                  htmlFor="floating_last_name"
+                  className={`${labelCss}`}
+                >
                   Last name
                 </label>
               </div>
