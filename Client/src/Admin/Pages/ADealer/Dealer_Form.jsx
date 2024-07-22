@@ -140,7 +140,7 @@ export const Dealer_Form = () => {
                   htmlFor="floating_phone"
                   className={`${labelCss}`}
                 >
-                  Phone number (123-456-7890)
+                  Phone number
                 </label>
               </div>
 
