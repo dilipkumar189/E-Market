@@ -15,7 +15,7 @@ export default function ADealer() {
                     <h1 className="text-gray-600 font-bold text-lg mb-3 col-span-7 md:col-span-8">Dealers</h1>
                     <div className="col-span-2 md:col-span-1 lg:ml-[20px]">
                     <Link to={"/dashboard/dealer_form"} className="btn btn-primary text-[9px] lg:text-[15px] font-bold px-[6px] py-[4px] rounded-[5px] ">
-                        Add +
+                        Add
                     </Link>
                     </div>
                 </div>
