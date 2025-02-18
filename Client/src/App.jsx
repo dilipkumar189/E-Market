@@ -48,7 +48,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* Admin  */}
+          {/* Admin */}
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard/profile" element={<Profile />} />
           <Route path="/dashboard/brand" element={<ABrand />} />
