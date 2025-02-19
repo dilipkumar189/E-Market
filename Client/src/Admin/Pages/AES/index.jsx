@@ -37,7 +37,7 @@ export default function AEVStartups() {
                             {/* <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800"> */}
                                 <Table.Cell>Sliver</Table.Cell>
                                 <Table.Cell>Laptop</Table.Cell>
-                                <Table.Cell>$2999</Table.Cell>
+                                <Table.Cell>$299</Table.Cell>
                                 <Table.Cell>Edit</Table.Cell>
                                 <Table.Cell>Edit</Table.Cell>
                                 <Table.Cell>Edit</Table.Cell>
