@@ -44,7 +44,7 @@ export default function ATwoWheeler() {
                                 <Table.Cell>Edit</Table.Cell>
                                 <Table.Cell>Edit</Table.Cell>
                                 <Table.Cell>Edit</Table.Cell>
-                            {/* </Table.Row> */}
+                            {/*</Table.Row> */}
                         </Table.Body>
                     </Table>
                 </div>
